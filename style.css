@@ -1,5 +1,4 @@
 header {
-    border: 1px solid black;
     height: 300px;
     background-image: url(../images/images/bg-hero-desktop.svg);
     background-size: cover;
@@ -11,9 +10,48 @@ header h2{
     font-size: 16px;
     }
     .part1 p {
-        
+        font-family: 'poppins';
+    font-size: 16px; 
     }
-
+.last{
+    padding: 8px;
+    width: 13rem;
+    border-radius: 5rem;
+    pointer-events: all;
+    color: white;
+    background-color: fuchsia;
+    text-align: center;
+}
+.part1{
+    width: 50%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.part2{
+width: 50%;
+width: 45%;
+float: right;
+}
+.part2 p{
+    font-size: x-small;
+    padding: 7px;
+    width: 14%;
+    float: right;
+    font-family: 'Poppins';
+    color: rgb(100, 95, 95);
+    background-color: #FFFFFF;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.part2 svg{
+    height: 10%;
+}
+#a{
+    height: -9991133444421900px;
+    width: -9991544440000000px;
+}
 body{
     background: url(../images/bg-hero-desktop.svg);
 }
